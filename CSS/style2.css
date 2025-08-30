@@ -70,10 +70,47 @@ nav a {
 .centro-escritores2{
     grid-column: 2/17;
     grid-row: 3/5;
-    background-color: green;
+    background-color: rgb(255, 217, 204);
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(6,auto);
+    row-gap: 10px;
 }
 
+.centro-escritores2-titulo{
+    grid-column: 1/11;
+    grid-row: 1/2;
+}
 
+.centro-escritores2-contenido{
+    grid-column: 2/10;
+    grid-row: 2/3;
+
+}
+
+.centro-escritores3-titulo{
+    grid-column: 1/11;
+    grid-row: 3/4;
+}
+
+.centro-escritores3-contenido{
+    grid-column: 2/10;
+    grid-row: 4/5;
+}
+
+.centro-escritores4-titulo{
+    grid-column: 1/11;
+    grid-row: 5/6;
+}
+
+.centro-escritores4-contenido{
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+
+.nombre-imagen{
+    font-size: 10px;
+}
 
 .orden{
     display: flex;
